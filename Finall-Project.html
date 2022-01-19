@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile-Shop</title>
+  <link rel="stylesheet" href="Css-Finall.css">
+</head>
+
+<body class="basic" dir="rtl">
+  <div class="parent-header">
+    <div>
+      <p onclick="mobileshop()" id="Mobile-Shop" class="header">Mobile-Shop</p>
+        <input placeholder="جستجو در Mobile-Shop" class="search" type="search">
+        </div>
+      <div class="txt-align margin-buttons">
+        <button onclick="sabad()" id="Sabad" class="shop-sabad"><img src="pictures/36.png">
+        </button>
+        <button onclick="btnVorood()" id="vorood" class="vorood">ورود</button>
+        <button onclick="btnSubmit()" id="submit" class="submit">ثبت نام</button>
+    </div>
+  </div>
+  <div class="navbar">
+    <div style="display: flex;" class="subnav">
+      <a onclick="home()" id="Home" href="#">خانه</a>
+    </div>
+    <div class="subnav">
+      <button onclick="mobile()" id="Mobile" class="subnavbtn">گوشی موبایل</button>
+      <div class="subnav-content">
+        <a href="Samsung-page.html" target="_blank">سامسونگ</a>
+        <a href="Xiaomi-page.html" target="_blank">شیائومی</a>
+        <a href="Iphone-page.html" target="_blank">اپل</a>
+      </div>
+    </div>
+  </div>
+  <!-- <ul>
+    <li><a onclick="home()" id="Home" href="#">خانه</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">گوشی موبایل</a>
+      <div class="dropdown-content">
+        <a href="Samsung-page.html" target="_blank">سامسونگ</a>
+        <a href="Xiaomi-page.html" target="_blank">شیائومی</a>
+        <a href="Iphone-page.html" target="_blank">اپل</a>
+      </div>
+    </li>
+  </ul> -->
+  <div class="flex-container">
+    <div onclick="Banner1()" id="banner1" class="slider img-banner1">
+    </div>
+    <div class="banners">
+      <div onclick="banner2()" id="Banner2" class="banner img-banner2"></div>
+      <div onclick="banner3()" id="Banner3" class="banner banner-bottom img-banner3"></div>
+    </div>
+  </div>
+  <div class="banner-m">
+    <div class="btn-m">
+      <h4>گوشی موبایل</h4>
+      <button onclick="btnMobile()" id="btn-mobile" type="button">سایر محصولات</button>
+    </div>
+    <div class="Parent-cards">
+      <div class="card margin-card">
+        <img class="properties-m" src="pictures/s21ultra5g.png">
+        <p class="txt-picture1">Galaxy S21 Ultra 5G</p>
+        <p class="txt-picture2">دو سیم کارت</p>
+        <p class="font-size-price"><b>28,500,000 تومان</b></p>
+      </div>
+      <div class="card">
+        <img class="properties-m" src="pictures/13_pro_max_new.png">
+        <p class="txt-picture1">iPhone 13 Pro Max</p>
+        <p class="txt-picture2">دو سیم کارت</p>
+        <p class="font-size-price"><b>41,389,000 تومان</b></p>
+      </div>
+      <div onclick="pocoX3pro()" id="POCOx3pro" class="card">
+        <div class="parent-takhfif">
+          <p class="takhfif">25 %</p>
+          <p class="takhfif">تخفیف</p>
+        </div>
+        <hr class="hr-takhfif">
+
+        <img class="properties-m" src="pictures/poxox3_pro_new.png">
+        <p class="txt-picture1">POCO X3 Pro</p>
+        <p class="txt-picture2">دو سیم کارت</p>
+        <p class="font-size-price-line-through">6,750,000</p>
+        <p class="font-size-price-takhfif"><b>5,062,500 تومان</b></p>
+      </div>
+      <div onclick="iphone13()" id="Iphone13" class="card">
+        <div class="parent-takhfif">
+          <p class="takhfif">20 %</p>
+          <p class="takhfif">تخفیف</p>
+        </div>
+        <hr class="hr-takhfif">
+
+        <img class="properties-m" src="pictures/13.png">
+        <p class="txt-picture1">iPhone 13</p>
+        <p class="txt-picture2">دو سیم کارت</p>
+        <p class="font-size-price-line-through"><b>27,600,000</b></p>
+        <p class="font-size-price-takhfif"><b>22,080,000 تومان</b></p>
+      </div>
+      <div onclick="note20ultra()" id="note20ultra" class="card">
+        <div class="parent-takhfif">
+          <p class="takhfif">30 %</p>
+          <p class="takhfif">تخفیف</p>
+        </div>
+        <hr class="hr-takhfif">
+
+        <img class="properties-m" src="pictures/note_20_ultra_5g.png">
+        <p class="txt-picture1">Galaxy Note 20 Ultra 5G</p>
+        <p class="txt-picture2">دو سیم کارت</p>
+        <p class="font-size-price-line-through"><b>30,000,000</b></p>
+        <p class="font-size-price-takhfif"><b>21,000,000 تومان</b></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <button class="topFunction" onclick="topFunction()">
+      <p class="txt-topFunction">بازگشت به بالا</p>
+    </button>
+    <p class="logo-footer">Mobile-Shop</p>
+    <p class="telephone">تلفن پشتیبانی :&nbsp 09309476493 &nbsp&nbsp&nbsp&nbsp&nbspهفت روز هفته، ۲۴ ساعت شبانه‌ روز
+      پاسخگوی شما هستیم.</p>
+    <hr class="hr-footer">
+    <p class="kolieh">کلیه حقوق این سایت متعلق به Ali Shokouhi می باشد.</p>
+  </div>
+  <script>
+    function mobileshop(){
+      document.getElementById("Mobile-Shop");
+      open("Finall-Project.html", "_self");
+    }
+    function sabad() {
+      document.getElementById("Sabad");
+      open("Sabad-Page-Finall.html");
+    }
+    function Banner1() {
+      document.getElementById("banner1");
+      open("Note20Ultra.html");
+    }
+    function note20ultra(){
+      document.getElementById("note20ultra");
+      open("Note20Ultra.html");
+    }
+    function banner2(){
+      document.getElementById("Banner2");
+      open("POCO-X3-Pro.html");
+    }
+    function pocoX3pro(){
+      document.getElementById("POCOx3pro");
+      open("POCO-X3-Pro.html");
+    }
+    function banner3(){
+      document.getElementById("Banner3");
+      open("Iphone13.html"); 
+    }
+    function iphone13(){
+      document.getElementById("Iphone13");
+      open("Iphone13.html");
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    function home() {
+      document.getElementById("Home");
+      open("Finall-Project.html", "_self");
+    }
+    function mobile() {
+      document.getElementById("Mobile");
+      open("Mobile-page.html");
+    }
+    function btnSubmit() {
+      document.getElementById("submit");
+      window.open("Submit-Page-Finall.html");
+    }
+    function btnVorood() {
+      document.getElementById("vorood");
+      window.open("Vorood-Page-Finall.html");
+    }
+    function btnMobile() {
+      document.getElementById("btn-mobile");
+      window.open("Mobile-page.html");
+    }
+  </script>
+</body>
+
+</html>

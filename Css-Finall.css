@@ -1,0 +1,808 @@
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/eot/iranyekanwebbold.eot');
+	src: url('fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanwebbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/eot/iranyekanwebthin.eot');
+	src: url('fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanwebthin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanwebthin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/eot/iranyekanweblight.eot');
+	src: url('fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanweblight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanweblight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/eot/iranyekanwebregular.eot');
+	src: url('fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanwebregular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/eot/iranyekanwebmedium.eot');
+	src: url('fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanwebmedium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/eot/iranyekanwebextrabold.eot');
+	src: url('fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanwebextrabold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/eot/iranyekanwebblack.eot');
+	src: url('fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanwebblack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanwebblack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iranyekan';
+	font-style: normal;
+	font-weight: 950;
+	src: url('fonts/eot/iranyekanwebextrablack.eot');
+	src: url('fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff/iranyekanwebextrablack.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+}
+
+.basic{
+    background-color: #faf6f6;
+}
+.parent-header{
+    display: flex; 
+    justify-content:space-between; 
+    align-items: flex-end; 
+    margin-right: 20px;
+}
+.header{
+    cursor: pointer;
+    float: right;
+    margin:0;
+    direction: rtl;
+    font-size: 30px;
+    float: right;
+    color: rgb(26, 123, 250);
+}
+.search{
+    width: 500px; 
+    height: 40px; 
+    color: #474747; 
+    font-size: 15px; 
+    margin-bottom: 10px; 
+    background-color: rgb(252, 252, 252); 
+    text-align: right; 
+    margin-right: 70px; 
+    padding-right: 20px;
+    border: 1px solid #efefef; 
+    border-radius: 6px 6px 6px 6px;
+}
+.search:focus {
+    outline: 1px solid #d4d4d4;
+}
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(65, 194, 245); 
+    border-radius: 10px 10px 10px 10px;
+}
+.navbar a {
+    float: right;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+.subnav {
+    float: right;
+    overflow: hidden;
+}  
+.subnav .subnavbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'iranyekan';
+    margin: 0;
+}
+.navbar a:hover {
+    color: black;
+    border-bottom: 2px solid rgb(26, 123, 250);
+}
+.subnav:hover .subnavbtn {
+    background-color: rgb(215, 232, 241);
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+    margin-right: 67px;
+    right: 0;
+    background-color: rgb(197, 229, 241);
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    z-index: 1;
+}
+.subnav-content a {
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+.subnav-content a:hover {
+    border-bottom: 2px solid rgb(26, 123, 250);
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(65, 194, 245); 
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .dropbtn{
+    display: inline-block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;  
+  }
+  
+  li a:hover {
+    background-color: rgb(215, 232, 241);
+    color: black;
+  }
+  .dropdown:hover .dropbtn:hover{
+    background-color: rgb(215, 232, 241); 
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(197, 229, 241);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } */
+.submit{
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'iranyekan';
+    padding: 10px;
+    border: 1px solid #d8d7d7;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
+@keyframes btn-submit {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237); color: white;}
+}
+.submit:hover{
+    animation-name: btn-submit;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.vorood{
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'iranyekan';
+    padding: 10px;
+    border: 1px solid #d8d7d7;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px; 
+    margin-left: 10px; 
+}
+@keyframes btn-vorood {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237); color: white;}
+}
+.vorood:hover{
+    animation-name: btn-vorood;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.shop-sabad{
+    cursor: pointer;
+    padding: 2px;
+    margin-left: -5px;
+    border: 1px solid #d8d7d7;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px;
+}
+@keyframes btn-sabad {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237); color: white;}
+}
+.shop-sabad:hover{
+    animation-name: btn-sabad;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.txt-align{
+    direction: ltr;
+    text-align: left;
+    display: flex;
+}
+.margin-buttons{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+.img-banner1{
+    cursor: pointer;
+    background-image: url("takhfif-pictures/Note20Ultra.png");
+    background-size: 100% 100% !important;
+}
+.img-banner2{
+    cursor: pointer;
+    background-image: url("takhfif-pictures/POCO\ X3-Pro.png");
+    background-size: 100% 100% !important;
+}
+.img-banner3{
+    cursor: pointer;
+    background-image:url("takhfif-pictures/iphone-13.png");
+    background-size: 100% 100% !important; 
+}
+.flex-container .slider {
+    height: 400px;
+    background-size: cover;
+    flex: 0 0 60%;
+    margin-top: 55px;
+    margin-right: 50px;
+    border-radius: 30px;
+    border: 1px solid rgb(65, 194, 245); 
+}
+.flex-container .banners {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33%;
+    margin-right: 10px;
+    margin-top: 55.5px;
+}
+.flex-container .banners .banner {
+    height: 196.5px;
+    background-size: cover;
+    border-radius: 30px;
+    border: 1px solid rgb(65, 194, 245); 
+}
+.banner-bottom{
+    margin-top: 5px;
+    height: 197px;
+}
+.banner-m{
+    cursor: pointer;
+    width: 1410px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(227, 231, 233); 
+}
+.Parent-cards{
+    display: flex; 
+    flex-direction: row;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 250px;
+    height: 370px;
+}
+.margin-card{
+    margin-right: 30px;
+}
+.card:hover{
+    box-shadow: 7px 7px 5px rgb(200, 215, 228), -5px -5px 5px white;
+    border-radius: 4%;
+}
+.properties-m{
+    margin-top: 20px;
+    height: auto;
+    width: 200px;
+    margin: auto;
+}
+.txt-picture1{
+    margin-top: 10px;
+}
+.txt-picture2{
+    margin-top: -10px;
+    margin-bottom: 0;   
+}
+.font-size-price{
+    font-size: 17.5px;
+}
+.font-size-price-line-through{
+    font-size: 16.5px;
+    margin-top: 5px; 
+    text-decoration: line-through; 
+    color: rgb(143, 139, 139);
+}
+.font-size-price-takhfif{
+    font-size: 17.5px;
+    margin-top: -10px;
+}
+.parent-takhfif{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.takhfif{
+    margin: 0; 
+    text-align: left; 
+    color: #fb3449;
+}
+.hr-takhfif{
+    width: 90%; 
+    border :.5px solid #fb3449;
+}
+.btn-m {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.btn-m button{
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    border: 1px solid #a1a3a8;
+    font-size: 15px;
+    font-family: 'iranyekan';
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px; 
+    transition: 0.5s;
+}
+.btn-m button:hover{
+    background-color: rgb(31, 204, 237);
+    border: none;
+    color: white;
+}
+.hr-footer{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: .5px solid rgb(215, 220, 221);
+}
+.kolieh{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(150, 151, 151);
+}
+.footer{
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    border: 1px solid rgb(213, 216, 218);
+}
+.topFunction{
+    background-color: #f5f5f5;
+    color: #8a8a8b;
+    cursor: pointer;
+    float: left;
+    border: 1px solid #a1a3a8;
+    border-radius: 10px 10px 10px 10px;
+    width: 120px;
+    height: 40px;
+    margin-left: 36px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.topFunction:hover{
+    background-color: rgb(31, 204, 237);
+    border: none;
+    color: white;
+}
+.txt-topFunction{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+.logo-footer{
+    font-size: 30px; 
+    color: rgb(26, 123, 250);
+    margin-right: 50px;
+}
+.telephone{
+    font-size: 17px;
+    margin-right: 50px;
+    color: rgb(71, 71, 71);
+}
+body , .txt-topFunction{
+    font-family: 'iranyekan' !important;
+}
+
+
+/* Submit-Page-Finall , Vorood-Page-Finall */
+
+
+.basic-submit-vorood-Sabad{
+    font-family: 'iranyekan';
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 350px;
+    height: 350px;
+    border: 2px solid slategrey;
+    border-radius: 6%;
+}
+
+/* Submit-Page */
+
+.style-username{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 49px;
+    color: rgb(143, 139, 139);
+}
+.usernamePhoneNumber-input{
+    font-size: 15px;
+    direction: rtl;
+    border-radius: 6px 6px 6px 6px;
+    border:1px solid rgb(143, 139, 139);
+    width: 250px;
+    height: 40px;
+}
+.style-PhoneNumber{
+    text-align: right;
+    font-size: 15px;
+    margin-right: 49px;
+    color: rgb(143, 139, 139);
+}
+.style-btn-Sabt{
+	cursor: pointer;
+    font-size: 18px;
+    width: 80px;
+    padding: 10px;
+    border: 1px solid #a1a3a8;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 24px;
+	transition: .5s;
+}
+@keyframes btn-Sabt {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237); color: white;}
+}
+.style-btn-Sabt:hover{
+    animation-name: btn-Sabt;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+/* Vorood-Page */
+
+.style-Username-PhoneNumber{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 63px;
+    color: rgb(143, 139, 139);
+}
+.style-Username-PhoneNumber-input{
+    font-size: 17px;
+    direction: rtl;
+    border-radius: 6px 6px 6px 6px;
+    border:1px solid rgb(143, 139, 139);
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+}
+.style-btn-Vorood{
+	cursor: pointer;
+    font-size: 18px;
+    width: 80px;
+    padding: 10px;
+    border: 1px solid #a1a3a8;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 40px;
+	transition: .5s;
+}
+@keyframes btn-Vorood {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237); color: white;}
+}
+.style-btn-Vorood:hover{
+    animation-name: btn-Vorood;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+/* Sabad-Page */
+
+.style-txt-sabad{
+    text-align: center;
+    font-size: 21px;
+    margin-top: 105px;
+    color: rgb(143, 139, 139);
+}
+
+
+/* Mobile-page , Iphone-page , Samsung-page , Xiaomi-page */
+
+
+.bannerr{
+    cursor: pointer;
+    width: 1420px;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(227, 231, 233); 
+}
+.margin-card-m{
+    margin-right: 35px;
+}
+.nav-iphone, .sumsung-page, .xiaomi-page{
+    cursor: pointer;
+}
+
+
+/* Note20Ultra-page */
+
+
+.title{
+    font-size: 18px;
+    text-align: center; 
+    margin-top: 25px; 
+    margin-right: 30px;
+}
+.parent1{
+    display: flex;
+}
+.div-img{
+    width: 25%;
+}
+.img{
+    width: 388.5px; 
+    height: 388.5px; 
+    margin: 0;
+}
+.div-center-texts{
+    width: 100%; 
+    margin-right: 30px;
+}
+.h2{
+    font-size: 15px; 
+    width: 100%; 
+    text-align: right; 
+    margin-top: 150px; 
+    margin-right: 26px;
+}
+.ul-txt-center{
+    font-size: 15px; 
+    text-align: right; 
+    margin-top: 90px;
+}
+.li-txt-center{
+    font-size: 13px;
+}
+.box-left{
+    width: 25%;
+}
+.parent-box-left{
+    margin-left: 20px; 
+    float: left; 
+    width: 340px; 
+    height: 390px;
+    background-color: rgb(241, 244, 247); 
+    text-align: right;
+    border-radius: 10px 10px 10px 10px; 
+    border: 1px solid slategrey;
+}
+.txt-box-left{
+    padding-right: 33px;
+}
+.hr-box-left{
+    width: 80%;
+}
+.price-through{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(143, 139, 139);
+    font-size: 19px;
+    padding-left: 10px; 
+    text-decoration: line-through; 
+    text-align: left;
+}
+.parent-takhfif-Note{
+    display: flex; 
+    justify-content: flex-end; 
+    margin-left: 10px; 
+}
+.takhfif-Note{
+    color: white; 
+    text-align: center; 
+    padding: 3px 10px;
+    background-color: #fb3449; 
+    border-radius:20px 20px 20px 20px;
+}
+.price{
+    font-size: 22px; 
+    padding-left: 10px; 
+    text-align: left;
+}
+.div-btn{
+    text-align: center;
+}
+.btn-box-left{
+    cursor: pointer;
+    width: 90%; 
+    height: 50px; 
+    border-radius: 10px 10px 10px 10px; 
+    border: 1px solid #a1a3a8;
+    transition: 0.5s;
+}
+.btn-box-left:hover{
+    background-color: rgb(31, 204, 237);
+    border: none;
+    color: white;
+}
+.txt-btn-box-left{
+    font-size: 18px;
+    margin: 0;
+}
+.big-hr{
+    border: .5px solid rgb(222, 226, 228);
+    float: left; 
+    width: 70%; 
+    margin-left: 20px;
+}
+.parent2{
+    direction: rtl; 
+    padding-top: 50px;
+}
+.title2{
+    text-align: center;
+}
+.div-right-table{
+    margin-right: 20px;
+}
+.p-table{
+    margin-right: 20px;
+}
+.td2{
+    vertical-align: top;
+}
+.div-left-table{
+    margin-right: 60px;
+}
+@media screen and (max-width: 500px) {
+    html{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;  
+    }
+}
+
+@media screen and ( max-width: 500px){
+    .header{
+        font-size: 25px;
+    }
+    .search{
+        width: 200px;
+        height: 33px;
+    }
+    .flex-container{
+        flex-direction: column;
+    }
+    .slider{
+        margin-left: 50px;
+        display: flex;
+        width: 100%;
+        display: inline-block;
+    }
+    .banners{
+        margin-left: 50px;
+        display: flex;
+        width: 100%;
+        display: inline-block;
+    }
+    .logo-footer{
+        font-size: 25px;
+        margin-right: 13px;
+    }
+    .topFunction{
+        margin-left: 13px;
+        width: 106px;
+        height: 46px;
+    }
+    .txt-topFunction{
+        font-size: 15px;
+    }
+    .telephone{
+        font-size: 15px;
+        margin-right: 13px;
+    }
+    .hr-footer{
+        margin-left: 13px;
+        margin-right: 13px;
+    }
+    .kolieh{
+        font-size: 13px;
+    }
+
+}
