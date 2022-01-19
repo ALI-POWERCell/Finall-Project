@@ -1,0 +1,284 @@
+.basic{
+    background-color: #faf6f6;
+}
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(65, 194, 245); 
+    border-radius: 10px 10px 10px 10px;
+}
+.parent-header{
+    display: flex; 
+    justify-content:space-between; 
+    align-items: flex-end; 
+    margin-right: 20px;
+}
+.header{
+    cursor: pointer;
+    float: right;
+    margin:0;
+    direction: rtl;
+    font-size: 30px;
+    float: right;
+    color: rgb(26, 123, 250);
+}
+.search{
+    width: 500px; 
+    height: 40px; 
+    color: #474747; 
+    font-size: 15px; 
+    margin-bottom: 10px; 
+    background-color: rgb(252, 252, 252); 
+    text-align: right; 
+    margin-right: 70px; 
+    padding-right: 20px;
+    border: 1px solid #efefef; 
+    border-radius: 6px 6px 6px 6px;
+}
+.search:focus {
+    outline: 1px solid #d4d4d4;
+}
+.navbar a {
+    float: right;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+.subnav {
+    float: right;
+    overflow: hidden;
+}  
+.subnav .subnavbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'iranyekan';
+    margin: 0;
+}
+.navbar a:hover {
+    background-color: rgb(215, 232, 241);
+    color: black;
+}
+.subnav:hover .subnavbtn {
+    background-color: rgb(215, 232, 241);
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+    margin-right: 67px;
+    right: 0;
+    background-color: rgb(197, 229, 241);
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    z-index: 1;
+}
+.subnav-content a {
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+.subnav-content a:hover {
+    background-color: white;
+}
+.subnav:hover .subnav-content {
+    display: block;
+}
+.nav-iphone{
+    cursor: pointer;
+}
+.submit{
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    padding: 10px;
+    border: 1px solid #d8d7d7;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
+@keyframes btn-submit {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237); color: white;}
+}
+.submit:hover{
+    animation-name: btn-submit;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.vorood{
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    padding: 10px;
+    border: 1px solid #d8d7d7;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px; 
+    margin-left: 10px; 
+}
+@keyframes btn-vorood {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237); color: white;}
+}
+.vorood:hover{
+    animation-name: btn-vorood;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.shop-sabad{
+    cursor: pointer;
+    padding: 2px;
+    margin-left: -5px;
+    border: 1px solid #d8d7d7;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px;
+}
+@keyframes btn-sabad {
+    from {background-color: rgb(224, 231, 233);}
+    to {background-color: rgb(31, 204, 237);}
+}
+.shop-sabad:hover{
+    animation-name: btn-sabad;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+.txt-align{
+    direction: ltr;
+    text-align: left;
+    display: flex;
+}
+.margin-buttons{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.banner{
+    cursor: pointer;
+    display: flex;
+    width: 1420px;
+    /* height: 900px; */
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(227, 231, 233); 
+}
+.Parent-cards{
+    display: flex; 
+    flex-direction: row;
+}
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 60px; */
+    margin-right: 25px;
+    width: 250px;
+    height: 370px;
+}
+.margin-card{
+    margin-right: 35px;
+}
+.card:hover{
+    box-shadow: 7px 7px 5px rgb(200, 215, 228), -5px -5px 5px white;
+    border-radius: 4%;
+}
+.properties{
+    margin-top: 20px;
+    height: auto;
+    width: 200px;
+    margin: auto;
+}
+.txt-picture1{
+    margin-top: 10px; 
+}
+.txt-picture2{
+    margin-top: -20px;
+    margin-bottom: -5px;   
+}
+.txt-price{
+    font-size: 17.5px;
+}
+.font-size-price-line-through{
+    font-size: 16.5px;
+    margin-top: 5px; 
+    text-decoration: line-through; 
+    color: rgb(143, 139, 139);
+}
+.font-size-price-takhfif{
+    font-size: 17.5px;
+    margin-top: -20px;
+}
+.parent-takhfif{
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.takhfif{
+    margin: 0; 
+    text-align: left; 
+    color: rgb(253, 9, 9);
+}
+.hr-takhfif{
+    width: 90%; 
+    border :.5px solid rgb(253, 9, 9);
+}
+.hr-footer{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: .5px solid rgb(215, 220, 221);
+}
+.kolieh{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(150, 151, 151);
+}
+.footer{
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    border: 1px solid rgb(213, 216, 218);
+}
+.topFunction{
+    background-color: #f5f5f5;
+    color: #8a8a8b;
+    cursor: pointer;
+    float: left;
+    border: 1px solid #a1a3a8;
+    border-radius: 10px 10px 10px 10px;
+    width: 120px;
+    height: 40px;
+    margin-left: 36px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.topFunction:hover{
+    background-color: rgb(31, 204, 237);
+    border: none;
+    color: white;
+}
+.txt-topFunction{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+.logo-footer{
+    font-size: 30px; 
+    color: rgb(26, 123, 250);
+    margin-right: 50px;
+}
+.telephone{
+    font-size: 17px;
+    margin-right: 50px;
+    color: rgb(71, 71, 71);
+}
+body , .txt-topFunction{
+    font-family: 'iranyekan' !important;
+}

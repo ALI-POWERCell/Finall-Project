@@ -79,7 +79,6 @@
 }
 
 .basic{
-    overflow-x: hidden;
     background-color: #faf6f6;
 }
 .parent-header{
@@ -105,8 +104,8 @@
     margin-bottom: 10px; 
     background-color: rgb(252, 252, 252); 
     text-align: right; 
-    margin-right: 70px; 
     padding-right: 20px;
+    margin-right: 70px; 
     border: 1px solid #efefef; 
     border-radius: 6px 6px 6px 6px;
 }
@@ -143,8 +142,8 @@
     margin: 0;
 }
 .navbar a:hover {
+    background-color: rgb(215, 232, 241);
     color: black;
-    border-bottom: 2px solid rgb(26, 123, 250);
 }
 .subnav:hover .subnavbtn {
     background-color: rgb(215, 232, 241);
@@ -167,7 +166,7 @@
     text-decoration: none;
 }
 .subnav-content a:hover {
-    border-bottom: 2px solid rgb(26, 123, 250);
+    background-color: white;
 }
 .subnav:hover .subnav-content {
     display: block;
@@ -194,7 +193,7 @@
 .vorood{
     cursor: pointer;
     font-size: 15px;
-    font-family: 'iranyekan';
+    font-family: 'iranyekan', 'Segoe UI';
     padding: 10px;
     border: 1px solid #d8d7d7;
     transition: .5s;
@@ -220,7 +219,7 @@
 }
 @keyframes btn-sabad {
     from {background-color: rgb(224, 231, 233);}
-    to {background-color: rgb(31, 204, 237); color: white;}
+    to {background-color: rgb(31, 204, 237);}
 }
 .shop-sabad:hover{
     animation-name: btn-sabad;
@@ -235,158 +234,6 @@
 .margin-buttons{
     margin-left: 20px;
     margin-bottom: 10px;
-}
-.flex-container {
-    display: flex;
-    flex-direction: row;
-}
-.img-banner1{
-    cursor: pointer;
-    background-image: url("takhfif-pictures/Note20Ultra.png");
-    background-size: 100% 100% !important;
-}
-.img-banner2{
-    cursor: pointer;
-    background-image: url("takhfif-pictures/POCO\ X3-Pro.png");
-    background-size: 100% 100% !important;
-}
-.img-banner3{
-    cursor: pointer;
-    background-image:url("takhfif-pictures/iphone-13.png");
-    background-size: 100% 100% !important; 
-}
-.flex-container .slider {
-    height: 400px;
-    background-size: cover;
-    flex: 0 0 60%;
-    margin-top: 55px;
-    margin-right: 50px;
-    border-radius: 30px;
-    border: 1px solid rgb(65, 194, 245); 
-}
-.flex-container .banners {
-    display: flex;
-    flex-direction: column;
-    flex: 0 0 33%;
-    margin-right: 10px;
-    margin-top: 55.5px;
-}
-.flex-container .banners .banner {
-    height: 196.5px;
-    background-size: cover;
-    border-radius: 30px;
-    border: 1px solid rgb(65, 194, 245); 
-}
-.banner-bottom{
-    margin-top: 5px;
-    height: 197px;
-}
-.banner-m{
-    cursor: pointer;
-    width: 1410px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
-    padding-bottom: 20px;
-    border-radius: 30px;
-    border: 1px solid rgb(227, 231, 233); 
-}
-.Parent-cards{
-    display: flex; 
-    flex-direction: row;
-}
-.card-main{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-right: 25px;
-    width: 250px;
-    height: 370px;
-}
-.card{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    margin-right: 25px;
-    width: 250px;
-    height: 370px;
-}
-.margin-card{
-    margin-right: 30px;
-}
-.card-main:hover{
-    box-shadow: 7px 7px 5px rgb(200, 215, 228), -5px -5px 5px white;
-    border-radius: 4%;
-}
-.card:hover{
-    box-shadow: 7px 7px 5px rgb(200, 215, 228), -5px -5px 5px white;
-    border-radius: 4%;
-}
-.properties-m{
-    margin-top: 20px;
-    height: auto;
-    width: 200px;
-    margin: auto;
-}
-.txt-picture1{
-    margin-top: 10px;
-}
-.txt-picture2{
-    margin-top: -10px;
-    margin-bottom: 0;   
-}
-.font-size-price{
-    font-size: 17.5px;
-}
-.font-size-price-line-through{
-    font-size: 16.5px;
-    margin-top: 5px; 
-    text-decoration: line-through; 
-    color: rgb(143, 139, 139);
-}
-.font-size-price-takhfif{
-    font-size: 17.5px;
-    margin-top: -10px;
-}
-.parent-takhfif{
-    display: flex; 
-    justify-content: space-between;
-    padding: 0 10px;
-}
-.takhfif{
-    margin: 0; 
-    text-align: left; 
-    color: #fb3449;
-}
-.hr-takhfif{
-    width: 90%; 
-    border :.5px solid #fb3449;
-}
-.btn-m {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    align-items: center;
-}
-.btn-m button{
-    cursor: pointer;
-    width: 120px;
-    height: 45px;
-    border: 1px solid #a1a3a8;
-    font-size: 15px;
-    font-family: 'iranyekan';
-    padding: 10px;
-    border-radius: 10px 10px 10px 10px; 
-    transition: 0.5s;
-}
-.btn-m button:hover{
-    background-color: rgb(31, 204, 237);
-    border: none;
-    color: white;
 }
 .hr-footer{
     margin-left: 50px;
@@ -439,138 +286,6 @@
 body , .txt-topFunction{
     font-family: 'iranyekan' !important;
 }
-
-
-/* Submit-Page-Finall , Vorood-Page-Finall */
-
-
-.basic-submit-vorood-Sabad{
-    font-family: 'iranyekan';
-    position: relative;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 200px;
-    width: 350px;
-    height: 350px;
-    border: 2px solid slategrey;
-    border-radius: 6%;
-}
-
-/* Submit-Page */
-
-.style-username{
-    text-align: right;
-    font-size: 15px;
-    margin-top: 20px;
-    margin-right: 49px;
-    color: rgb(143, 139, 139);
-}
-.usernamePhoneNumber-input{
-    font-size: 15px;
-    direction: rtl;
-    border-radius: 6px 6px 6px 6px;
-    border:1px solid rgb(143, 139, 139);
-    width: 250px;
-    height: 40px;
-}
-.style-PhoneNumber{
-    text-align: right;
-    font-size: 15px;
-    margin-right: 49px;
-    color: rgb(143, 139, 139);
-}
-.style-btn-Sabt{
-	cursor: pointer;
-    font-size: 18px;
-    width: 80px;
-    padding: 10px;
-    border: 1px solid #a1a3a8;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 24px;
-	transition: .5s;
-}
-@keyframes btn-Sabt {
-    from {background-color: rgb(224, 231, 233);}
-    to {background-color: rgb(31, 204, 237); color: white;}
-}
-.style-btn-Sabt:hover{
-    animation-name: btn-Sabt;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-}
-
-/* Vorood-Page */
-
-.style-Username-PhoneNumber{
-    text-align: center;
-    font-size: 15px;
-    margin-top: 63px;
-    color: rgb(143, 139, 139);
-}
-.style-Username-PhoneNumber-input{
-    font-size: 17px;
-    direction: rtl;
-    border-radius: 6px 6px 6px 6px;
-    border:1px solid rgb(143, 139, 139);
-    width: 250px;
-    height: 40px;
-    margin-top: 10px;
-}
-.style-btn-Vorood{
-	cursor: pointer;
-    font-size: 18px;
-    width: 80px;
-    padding: 10px;
-    border: 1px solid #a1a3a8;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 40px;
-	transition: .5s;
-}
-@keyframes btn-Vorood {
-    from {background-color: rgb(224, 231, 233);}
-    to {background-color: rgb(31, 204, 237); color: white;}
-}
-.style-btn-Vorood:hover{
-    animation-name: btn-Vorood;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-}
-
-/* Sabad-Page */
-
-.style-txt-sabad{
-    text-align: center;
-    font-size: 21px;
-    margin-top: 105px;
-    color: rgb(143, 139, 139);
-}
-
-
-/* Mobile-page , Iphone-page , Samsung-page , Xiaomi-page */
-
-
-.bannerr{
-    cursor: pointer;
-    width: 1420px;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 50px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    border-radius: 30px;
-    border: 1px solid rgb(227, 231, 233); 
-}
-.margin-card-m{
-    margin-right: 35px;
-}
-.nav-iphone, .sumsung-page, .xiaomi-page{
-    cursor: pointer;
-}
-
-
-/* Note20Ultra-page */
-
-
 .title{
     font-size: 18px;
     text-align: center; 
@@ -579,7 +294,6 @@ body , .txt-topFunction{
 }
 .parent1{
     display: flex;
-    width: 100%;
 }
 .div-img{
     width: 25%;
@@ -608,9 +322,6 @@ body , .txt-topFunction{
 .li-txt-center{
     font-size: 13px;
 }
-.box-left{
-    width: 25%;
-}
 .parent-box-left{
     margin-left: 20px; 
     float: left; 
@@ -636,12 +347,12 @@ body , .txt-topFunction{
     text-decoration: line-through; 
     text-align: left;
 }
-.parent-takhfif-Note{
+.parent-takhfif{
     display: flex; 
     justify-content: flex-end; 
     margin-left: 10px; 
 }
-.takhfif-Note{
+.takhfif{
     color: white; 
     text-align: center; 
     padding: 3px 10px;
@@ -697,146 +408,4 @@ body , .txt-topFunction{
 }
 .div-left-table{
     margin-right: 60px;
-}
-.owl-carousel .owl-item img{
-    height: auto;
-    width: 200px;
-    margin: auto;
-}
-
-/* Mobile size */
-
-@media screen and ( max-width: 700px){
-    .header{
-        font-size: 25px;
-    }
-    .parent-logo-search{
-        display: flex;
-        margin-top: 10px;
-    }
-    .search{
-        width: 200px;
-        height: 33px;
-        margin-left: 10px;
-    }
-    .Parent-cards{
-        flex-direction: column;
-    }
-    .flex-container{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .flex-container .slider{
-        height: 140px;
-        width: 100%;
-        max-width: 100%;
-        margin-top: 10px;
-        margin-right: 5px;
-        /* margin-left: 4px; */
-        display: flex;
-        flex: 0 0 96.5%;
-    }
-    .flex-container .banners{
-        width: 100%;
-        max-width: 100%;
-        display: flex;
-        flex: 0 0 96.5%;
-        margin-top: 10px;
-        margin-right: 5px;
-        /* margin-left: 4px; */
-    }
-    .flex-container .banners .banner{
-        height: 140px;
-    }
-    .banner{
-        width: unset;
-    }
-    .bannerr{
-        width: 94.5%;
-        margin-right: 9px;
-    }
-    .banner-m{
-        width: 94.5%;
-        margin-right: 10px;
-        margin-top: 25px;
-    }
-    .margin-card{
-        margin-right: -4px;
-    }
-    .margin-card-m{
-        margin-right: 38px;
-    }
-    .card-main{
-        margin-bottom: -54px;
-        margin-right: 49px;
-        height: auto;
-        flex: 1 0 100%;
-    }
-    .logo-footer{
-        font-size: 25px;
-        margin-right: 13px;
-    }
-    .topFunction{
-        margin-left: 13px;
-        width: 106px;
-        height: 46px;
-    }
-    .txt-topFunction{
-        font-size: 15px;
-    }
-    .telephone{
-        font-size: 15px;
-        margin-right: 13px;
-    }
-    .hr-footer{
-        margin-left: 13px;
-        margin-right: 13px;
-    }
-    .kolieh{
-        font-size: 13px;
-    }
-    .parent1{
-        flex-direction: column;
-    }
-    .box-left{
-        width: 100%;
-    }
-    .big-hr{
-        width: 90%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .title{
-        margin-right: unset;
-    }
-    .parent-header{
-        flex-wrap: wrap;
-        justify-content: flex-end;
-    }
-}
-
-/* Tablet size */
-
-@media screen and (min-width: 768px) and (max-width: 1024px){
-    .flex-container .slider{
-        height: 265px;
-        margin-right: 30px;
-        flex: 0 0 60%;
-    }
-    .flex-container .banners .banner{
-        height: 129.5px;
-    }
-    .banner-m{
-        margin-right: 30px;
-        width:943px;
-    }
-    .Parent-cards{
-        flex-wrap: wrap;
-    }
-    .bannerr{
-        width: unset;
-    }
-    .margin-card-m{
-        margin-right: 55px;
-    }
 }
