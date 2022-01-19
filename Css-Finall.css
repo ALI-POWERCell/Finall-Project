@@ -832,6 +832,8 @@ body , .txt-topFunction{
     }
     .Parent-cards{
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
     .bannerr{
         width: unset;
