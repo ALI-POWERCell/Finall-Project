@@ -283,9 +283,9 @@
 }
 .banner-m{
     cursor: pointer;
-    width: 100%;
+    width: 93.5%;
     margin-top: 4%;
-    margin-right: 4%;
+    margin-right: 3.5%;
     margin-left: 4%;
     padding-bottom: 2.5%;
     border-radius: 30px;
@@ -763,9 +763,6 @@ body , .txt-topFunction{
         margin-right: 2%;
         margin-top: 4%;
     }
-    .card{
-        margin-right: 0;
-    }
     .card-main{
         margin-bottom: 4%;
         margin-right: 13%;
@@ -865,10 +862,12 @@ body , .txt-topFunction{
         margin-right: 0;
     }
     .card-main{
+        margin-right: 0;
         margin-top: 3%;
         margin-bottom: 3%;
     }
     .card{
+        margin-right: 0;
         margin-top: 2.5%;
         margin-bottom: 2.5%;
         width: 44%;
