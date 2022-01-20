@@ -740,10 +740,10 @@ body , .txt-topFunction{
         flex: 0 0 96.5%;
     }
     .flex-container .banners{
-        width: 100%;
-        max-width: 100%;
+        /* width: 100%;
+        max-width: 100%; */
         display: flex;
-        flex: 0 0 96.5%;
+        flex: 0 0 100%;
         margin-top: 2%;
         margin-right: 2%;
         /* margin-left: 4px; */
@@ -752,14 +752,14 @@ body , .txt-topFunction{
         height: 140px;
     }
     .banner{
-        width: unset;
+        width: 96%;
     }
     .bannerr{
         width: 94.5%;
         margin-right: 9px;
     }
     .banner-m{
-        width: 94.5%;
+        width: 96%;
         margin-right: 2%;
         margin-top: 4%;
     }
@@ -768,7 +768,7 @@ body , .txt-topFunction{
     }
     .card-main{
         margin-bottom: 4%;
-        margin-right: 12%;
+        margin-right: 13%;
         height: auto;
         flex: 1 0 100%;
     }
