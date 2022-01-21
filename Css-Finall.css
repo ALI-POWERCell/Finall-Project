@@ -894,12 +894,9 @@ body , .txt-topFunction{
 
 @media screen and (min-width: 701px) and (max-width: 1024px){
     .flex-container .slider{
-        height: 265px;
+        height: 220px;
         margin-right: 30px;
         flex: 0 0 60%;
-    }
-    .flex-container .banners .banner{
-        height: 129.5px;
     }
     .banner-m{
         margin-right: 30px;
@@ -960,6 +957,9 @@ body , .txt-topFunction{
     }
     .banner-m{
         width: 94%;
+    }
+    .bannerr{
+        width: unset;
     }
     .div-img , .div-center-texts , .box-left{
         width: 33%;
