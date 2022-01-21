@@ -710,6 +710,25 @@ body , .txt-topFunction{
     width: 200px;
     margin: auto;
 }
+.owl-nav{
+    text-align: center;
+}
+.owl-nav .owl-prev span ,.owl-nav .owl-next span {
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'iranyekan';
+    padding: 10px;
+    border: 1px solid #d8d7d7;
+    transition: .5s;
+    border-radius: 10px 10px 10px 10px;
+}
+.owl-nav button{
+    margin: 10px;
+}
+.owl-nav .owl-prev span:hover,.owl-nav .owl-next span:hover{
+    background-color: rgb(31, 204, 237);
+    color: white;
+}
 
 
 /* Mobile size */
@@ -747,18 +766,14 @@ body , .txt-topFunction{
         max-width: 100%;
         margin-top: 3%;
         margin-right: 2%;
-        /* margin-left: 4px; */
         display: flex;
         flex: 0 0 96.5%;
     }
     .flex-container .banners{
-        /* width: 100%;
-        max-width: 100%; */
         display: flex;
         flex: 0 0 100%;
         margin-top: 2%;
         margin-right: 2%;
-        /* margin-left: 4px; */
     }
     .flex-container .banners .banner{
         height: 140px;
@@ -776,8 +791,6 @@ body , .txt-topFunction{
         margin-top: 4%;
     }
     .card-main{
-        /* margin-bottom: 4%;
-        margin-right: 13%; */
         height: auto;
         flex: 1 0 100%;
     }
@@ -850,142 +863,6 @@ body , .txt-topFunction{
     }
 }
 
-/* @media screen and (min-width: 699px) and (max-width: 1294px){
-    .header{
-        font-size: 25px;
-        display: flex;
-        justify-content: space-around;
-    }
-    .parent-logo-search{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 12px;
-    }
-    .search{
-        width: 300px;
-        height: 33px;
-        margin: 0;
-    }
-    .Parent-cards{
-        flex-direction: column;
-        align-items: center;
-    }
-    .flex-container{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .flex-container .slider{
-        height: 140px;
-        width: 100%;
-        max-width: 100%;
-        margin-top: 3%;
-        margin-right: 2%;
-        display: flex;
-        flex: 0 0 96.5%;
-    }
-    .flex-container .banners{
-        display: flex;
-        flex: 0 0 100%;
-        margin-top: 2%;
-        margin-right: 2%;
-    }
-    .flex-container .banners .banner{
-        height: 140px;
-    }
-    .banner{
-        width: 96%;
-    }
-    .bannerr{
-        width: 94.5%;
-        margin-right: 2.6%;
-    }
-    .banner-m{
-        width: 96%;
-        margin-right: 2%;
-        margin-top: 4%;
-    }
-    .card-main{
-        height: auto;
-        flex: 1 0 100%;
-    }
-    .card{
-        margin-right: 0;
-    }
-    .margin-card-m{
-        margin-right: 0;
-    }
-    .owl-carousel .owl-item img{
-        margin-top: 3%;
-    }
-    .parent1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .div-img{
-        width: 100%;
-        text-align: center;
-    }
-    .parent-takhfif{
-        padding: 0 30px;
-    }
-    .hr-takhfif{
-        width: 80%;
-    }
-    .logo-footer{
-        font-size: 25px;
-        margin-right: 13px;
-    }
-    .topFunction{
-        margin-left: 13px;
-        width: 106px;
-        height: 46px;
-    }
-    .txt-topFunction{
-        font-size: 15px;
-    }
-    .telephone{
-        font-size: 15px;
-        margin-right: 13px;
-    }
-    .hr-footer{
-        margin-left: 13px;
-        margin-right: 13px;
-    }
-    .kolieh{
-        font-size: 13px;
-    }
-    .parent1{
-        flex-direction: column;
-    }
-    .div-img{
-        width: 100%;
-        justify-content: center;
-    }
-    .img{
-        width: 360.5px;
-        height: 360.5px;
-    }
-    .box-left{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .big-hr{
-        width: 85%;
-    }
-    .title{
-        margin-right: unset;
-    }
-    .parent-header{
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        margin: 0;
-    }
-} */
-
 @media screen and (min-width: 280px) and (max-width: 350px){
     .img{
         width: 270.5px;
@@ -1010,6 +887,7 @@ body , .txt-topFunction{
         font-size: 10px;
     }
 }
+
 
 /* Tablet size */
 
@@ -1051,29 +929,44 @@ body , .txt-topFunction{
         margin-bottom: 2.5%;
         width: 44%;
     }
-    /* .parent1{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .div-img{
-        width: 100%;
-        text-align: center;
-    }
-    .box-left{
-        width: 100%;
-        float: none;
-        display: flex;
-        justify-content: center;
-    } */
     .parent-takhfif{
         padding: 0 72px;
     }
     .hr-takhfif{
         width: 65%;
     }
+    .parent1{
+        flex-wrap: wrap;
+    }
+    .div-img{
+        width: 50%;
+    }
+    .div-center-texts {
+        width: 50%;
+        margin: 0;
+    }
+    .box-left{
+        width: 100%;
+    }
+    .parent-box-left {
+        float: unset;
+        margin: 0 auto;
+    }
 }
+
 @media screen and (min-width: 1024px){
     .search{
         margin-right: 70px;
+    }
+    .banner-m{
+        width: 94%;
+    }
+    .div-img , .div-center-texts , .box-left{
+        width: 33%;
+        margin: unset;
+    }
+    .img{
+        width: 372.5px;
+        height: 372.5px;
     }
 }
