@@ -958,9 +958,6 @@ body , .txt-topFunction{
     .banner-m{
         width: 94%;
     }
-    .bannerr{
-        width: unset;
-    }
     .div-img , .div-center-texts , .box-left{
         width: 33%;
         margin: unset;
@@ -968,5 +965,10 @@ body , .txt-topFunction{
     .img{
         width: 372.5px;
         height: 372.5px;
+    }
+}
+@media screen and (min-width: 1252px) and (max-width: 1506px){
+    .bannerr{
+        width: unset;
     }
 }
