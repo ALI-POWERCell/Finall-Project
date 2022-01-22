@@ -898,6 +898,9 @@ body , .txt-topFunction{
         margin-right: 30px;
         flex: 0 0 60%;
     }
+    .flex-container .banners{
+        height: 222px;
+    }
     .banner-m{
         margin-right: 30px;
         width:943px;
