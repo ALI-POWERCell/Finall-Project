@@ -976,7 +976,6 @@ body , .txt-topFunction{
 
 @media screen and (min-width: 1025px) and (max-width: 1252px){
     .bannerr{
-        margin-right: 30px;
         width:unset;
     }
     .Parent-cards{
