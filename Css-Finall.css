@@ -967,8 +967,21 @@ body , .txt-topFunction{
         height: 372.5px;
     }
 }
+
 @media screen and (min-width: 1252px) and (max-width: 1506px){
     .bannerr{
         width: unset;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1252px){
+    .bannerr{
+        margin-right: 30px;
+        width:unset;
+    }
+    .Parent-cards{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
     }
 }
