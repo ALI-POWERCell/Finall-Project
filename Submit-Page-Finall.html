@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ثبت نام</title>
-        <link rel="stylesheet" href="Css-Finall.css">
-    </head>
-    <body>
-        <div class="basic-submit-vorood-Sabad">
-           <div>
-                <h1>ثبت نام</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام</title>
+    <link rel="shortcut icon" href="pictures/logo.png">
+    <link rel="stylesheet" href="Css-Finall.css">
+</head>
+
+<body>
+    <div class="basic-submit-vorood">
+        <div>
+            <h1 class="h1-style">ثبت نام</h1>
+            <form action="register.php" method="post">
                 <p class="style-username">: نام کاربری</p>
-                <input class="usernamePhoneNumber-input" type="text">
-                <p class="style-PhoneNumber">: شماره موبایل</p>
-                <input class="usernamePhoneNumber-input" type="text">
-            </div> 
-            <div>
-                <button class="style-btn-Sabt">ثبت نام</button>
-            </div>
+                <input class="passcode-input" type="text" name="userName" required>
+                <p class="style-passcode">: رمز عبور</p>
+                <input class="passcode-input" type="text" name="pass" required>
+                <div>
+                    <button class="style-btn-Sabt">ثبت نام</button>
+                </div>
+            </form>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
