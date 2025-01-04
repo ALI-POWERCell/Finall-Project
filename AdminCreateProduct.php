@@ -63,13 +63,14 @@ include('connection.php');
         </div>
     </div>
     <div class="bannerr pt-4">
-        <form id="AddProduct" method="post" action="" enctype="multipart/form-data">
+        <form id="AddProduct" method="post" action="SubmitCreateProduct.php" enctype="multipart/form-data">
+            <!-- enctype="multipart/form-data" -->
             <input type="hidden" name="Specification" id="Specification" />
             <div class="container">
                 <div class="row">
                     <div class="mb-3 col-4">
-                        <label for="name" class="form-label">نام</label>
-                        <input type="text" class="form-control" id="name" name="name">
+                        <label for="userName" class="form-label">نام</label>
+                        <input type="text" class="form-control" id="userName" name="userName">
                     </div>
                     <div class="mb-3 col-4">
                         <label for="price" class="form-label">قیمت</label>
@@ -99,10 +100,10 @@ include('connection.php');
                         <div class="row">
                             <div class="col-6">
                                 <label for="imageUpload" class="form-label">آپلود تصویر</label>
-                                <input type="file" class="form-control" name="" id="imageUpload" accept="image/*">
+                                <input type="file" class="form-control" name="imageUpload" id="imageUpload" accept="image/*">
                             </div>
                             <div class="col-6">
-                                <h5>پیش نمایش:</h5>
+                                <h6>پیش نمایش:</h6>
                                 <img id="imagePreview" src="#" alt="Preview" class="img-fluid"
                                     style="display: none; max-width: 100%; height: auto; border: 1px solid #ddd; padding: 5px;width: 250px;">
                             </div>
@@ -291,10 +292,8 @@ include('connection.php');
                 }
             }
 
-            console.log(jsonData);
-            // alert('JSON Data: ' + JSON.stringify(jsonData));
-
-            document.getElementById('Specification').value(jsonData);
+            console.log(JSON.stringify(jsonData));
+            document.getElementById('Specification').value = JSON.stringify(jsonData);
             const form = document.getElementById('AddProduct');
             form.submit();
         })
