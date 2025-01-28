@@ -100,7 +100,8 @@ include('connection.php');
                         <div class="row">
                             <div class="col-6">
                                 <label for="imageUpload" class="form-label">آپلود تصویر</label>
-                                <input type="file" class="form-control" name="imageUpload" id="imageUpload" accept="image/*">
+                                <input type="file" class="form-control" name="imageUpload" id="imageUpload"
+                                    accept="image/*">
                             </div>
                             <div class="col-6">
                                 <h6>پیش نمایش:</h6>
@@ -116,6 +117,233 @@ include('connection.php');
                                 </div> -->
 
                             <div class="container mt-5">
+                                <div id="defult_Value">
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="رنگ" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="حافظه داخلی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="بازه ی اندازه صفحه نمایش" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="شبکه های ارتباطی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="وزن" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="توضیحات سیم کارت" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="ساختار بدنه" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="ویژگی‌های خاص" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="تعداد سیم کارت" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="زمان معرفی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="تراشه" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="پردازنده‌ی مرکزی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="نوع پردازنده" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="فرکانس پردازنده‌ی مرکزی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="پردازنده‌ی گرافیکی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="حافظه داخلی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="مقدار RAM" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="فناوری صفحه‌ نمایش" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="اندازه" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="رزولوشن" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="تراکم پیکسلی" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="سایر قابلیت‌ها" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="سیستم عامل" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="نسخه سیستم عامل" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3 field-row">
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="نام" name="name[]"
+                                                value="مشخصات باتری" readonly />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <input type="text" class="form-control" placeholder="مقدار" name="value[]">
+                                        </div>
+                                    </div>
+                                </div>
                                 <div id="fieldContainer">
                                     <div class="row mb-3 field-row">
                                         <div class="col-md-5">

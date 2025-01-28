@@ -65,7 +65,7 @@ include('connection.php');
     <div class="bannerr">
         <div>
             <h2>لیست محصولات</h2>
-            <a href="/" class="btn btn-success mb-3">افزودن محصول</a>
+            <a href="AdminCreateProduct.php" class="btn btn-success mb-3">افزودن محصول</a>
         </div>
         <div class="Parent-cards" id="responseProducts">
             <table class="table">
@@ -93,8 +93,8 @@ include('connection.php');
                                 <td><?php echo number_format($price) ?> تومان</td>
                                 <td><?php echo $row['guarantee']; ?></td>
                                 <td>
-                                    <a href="/" class="btn btn-primary">ویرایش</a>
-                                    <a href="/" class="btn btn-danger">حذف</a>
+                                    <a href="AdminUpdateProduct.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">ویرایش</a>
+                                    <a href="AdminDeleteProduct.php?id=<?php echo $row['id']; ?>" class="btn btn-danger">حذف</a>
                                 </td>
                             </tr>
                                 <!-- <a style="text-decoration: none;color:black" href="Specification.php?id=<?php echo $row['id'] ?>">
