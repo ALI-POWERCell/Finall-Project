@@ -3,9 +3,11 @@
     font-style: normal;
     font-weight: bold;
     src: url('fonts/eot/iranyekanwebbold.eot');
-    src: url('fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanwebbold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanwebbold.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanwebbold.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanwebbold.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanwebbold.ttf') format('truetype');
 }
 
 @font-face {
@@ -13,9 +15,11 @@
     font-style: normal;
     font-weight: 100;
     src: url('fonts/eot/iranyekanwebthin.eot');
-    src: url('fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanwebthin.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanwebthin.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanwebthin.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanwebthin.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanwebthin.ttf') format('truetype');
 }
 
 @font-face {
@@ -23,9 +27,11 @@
     font-style: normal;
     font-weight: 300;
     src: url('fonts/eot/iranyekanweblight.eot');
-    src: url('fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanweblight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanweblight.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanweblight.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanweblight.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanweblight.ttf') format('truetype');
 }
 
 @font-face {
@@ -33,9 +39,11 @@
     font-style: normal;
     font-weight: normal;
     src: url('fonts/eot/iranyekanwebregular.eot');
-    src: url('fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanwebregular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanwebregular.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanwebregular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanwebregular.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanwebregular.ttf') format('truetype');
 }
 
 @font-face {
@@ -43,9 +51,11 @@
     font-style: normal;
     font-weight: 500;
     src: url('fonts/eot/iranyekanwebmedium.eot');
-    src: url('fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanwebmedium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanwebmedium.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanwebmedium.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanwebmedium.ttf') format('truetype');
 }
 
 @font-face {
@@ -53,9 +63,11 @@
     font-style: normal;
     font-weight: 800;
     src: url('fonts/eot/iranyekanwebextrabold.eot');
-    src: url('fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanwebextrabold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanwebextrabold.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanwebextrabold.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanwebextrabold.ttf') format('truetype');
 }
 
 @font-face {
@@ -63,9 +75,11 @@
     font-style: normal;
     font-weight: 900;
     src: url('fonts/eot/iranyekanwebblack.eot');
-    src: url('fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanwebblack.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanwebblack.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanwebblack.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanwebblack.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanwebblack.ttf') format('truetype');
 }
 
 @font-face {
@@ -73,9 +87,11 @@
     font-style: normal;
     font-weight: 950;
     src: url('fonts/eot/iranyekanwebextrablack.eot');
-    src: url('fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-    url('fonts/woff/iranyekanwebextrablack.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-    url('fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
+    src: url('fonts/eot/iranyekanwebextrablack.eot?#iefix') format('embedded-opentype'),
+        /* IE6-8 */
+        url('fonts/woff/iranyekanwebextrablack.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('fonts/ttf/iranyekanwebextrablack.ttf') format('truetype');
 }
 
 .loading-page {
@@ -267,6 +283,7 @@ textarea {
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -293,6 +310,7 @@ textarea {
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -319,6 +337,7 @@ textarea {
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -346,6 +365,7 @@ textarea {
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -372,6 +392,7 @@ textarea {
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(237, 31, 31);
         color: white;
@@ -581,6 +602,7 @@ textarea {
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -772,6 +794,7 @@ textarea {
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -922,6 +945,7 @@ textarea {
     from {
         opacity: .4
     }
+
     to {
         opacity: 1
     }
@@ -931,6 +955,7 @@ textarea {
 /* On smaller screens, decrease text size */
 
 @media only screen and (max-width: 300px) {
+
     .prev,
     .next,
     .text {
@@ -1197,6 +1222,7 @@ body,
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -1294,6 +1320,7 @@ body,
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(31, 204, 237);
         color: white;
@@ -1421,6 +1448,7 @@ body,
     from {
         background-color: rgb(224, 231, 233);
     }
+
     to {
         background-color: rgb(237, 31, 31);
         color: white;
@@ -1437,7 +1465,7 @@ body,
 /* Mobile-page */
 
 .bannerr {
-    width: 1420px;
+    width: 100%;
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
@@ -1687,17 +1715,19 @@ box-left-sabad {
 
 /* Mobile size */
 
-@media screen and ( max-width: 700px) {
+@media screen and (max-width: 700px) {
     .parent-header {
         flex-wrap: wrap;
         justify-content: flex-end;
         margin: 0;
     }
+
     .header {
         font-size: 25px;
         display: flex;
         justify-content: space-around;
     }
+
     .parent-logo-search {
         display: flex;
         flex-direction: column;
@@ -1705,19 +1735,23 @@ box-left-sabad {
         width: 100%;
         margin-bottom: 12px;
     }
+
     .search {
         width: 300px;
         height: 33px;
         margin: 0;
     }
+
     .Parent-cards {
         flex-direction: column;
         align-items: center;
     }
+
     .flex-container {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .flex-container .slider {
         height: 140px;
         width: 100%;
@@ -1727,136 +1761,172 @@ box-left-sabad {
         display: flex;
         flex: 0 0 96.5%;
     }
+
     .flex-container .banners {
         display: flex;
         flex: 0 0 100%;
         margin-top: 2%;
         margin-right: 2%;
     }
+
     .flex-container .banners .banner {
         height: 140px;
     }
+
     .banner {
         width: 96%;
     }
+
     .bannerr {
         width: 94.5%;
         margin-right: 2.6%;
     }
+
     .banner-m {
         width: 96%;
         margin-right: 2%;
         margin-top: 4%;
     }
+
     .card-main {
         height: auto;
         flex: 1 0 100%;
     }
+
     .card {
         margin-right: 0;
     }
+
     .margin-card-m {
         margin-right: 0;
     }
+
     .logo-footer {
         font-size: 25px;
         margin-right: 13px;
     }
+
     .topFunction {
         margin-left: 13px;
         width: 106px;
         height: 46px;
     }
+
     .txt-topFunction {
         font-size: 15px;
     }
+
     .telephone {
         font-size: 15px;
         margin-right: 13px;
     }
+
     .hr-footer {
         margin-left: 13px;
         margin-right: 13px;
     }
+
     .kolieh {
         font-size: 12.5px;
     }
+
     .parent1 {
         flex-direction: column;
     }
+
     .div-center-texts {
         width: 85%;
     }
+
     .img {
         width: 360.5px;
         height: 360.5px;
     }
+
     .parent-box-left-takhfif {
         width: 90%;
         margin: 0 auto;
         float: unset;
     }
+
     .box-left {
         width: 100%;
     }
+
     .big-hr {
         width: 90%;
     }
+
     .title {
         margin-right: unset;
     }
+
     .Sabad {
         width: 93%;
     }
+
     .box-left-sabad {
         display: flex;
         justify-content: center;
     }
+
     .Sabad_Box_Left {
         margin-left: unset;
         margin-top: 6%;
         margin-bottom: 4.5%;
         float: unset;
     }
+
     .boxEmpity {
         float: none;
         margin-left: unset;
         margin: 0 auto;
         margin-bottom: 10px;
     }
+
     .title-Empity::before {
         border: none;
     }
+
     .title-Empity::after {
         border: none;
     }
+
     .parent-pay {
         flex-direction: column;
     }
+
     .pay-page {
         width: 93%;
     }
+
     .title-pay {
         width: 100%;
     }
+
     .pay-spec {
         margin-top: 39px;
         align-items: unset;
         flex-direction: column;
         justify-content: unset;
     }
+
     .parent-info-factor {
         flex-direction: column;
     }
+
     .parent-customer-box {
         width: 92%;
     }
+
     .basic-message {
         width: auto;
     }
+
     .basic-messages {
         width: auto;
     }
+
     .messages {
         width: 80%;
     }
@@ -1866,74 +1936,94 @@ box-left-sabad {
     .search {
         width: 261px;
     }
+
     .margin-buttons {
         margin-left: 9px;
     }
+
     .numbertext {
         font-size: 10px;
         padding: 9px 15px;
     }
+
     .img {
         width: 270.5px;
         height: 270.5px;
     }
+
     .div-left-table {
         margin-right: 10px;
     }
+
     .logo-footer {
         font-size: 20px;
         margin-right: 6px;
         margin-top: 20px;
     }
+
     .topFunction {
         margin-left: 5px;
         margin-top: 10px;
     }
+
     .kolieh {
         font-size: 10px;
     }
+
     .parent-spec-sabad {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
     .parent-counter {
         margin-top: 18px;
         margin-bottom: 7px;
     }
+
     .number-product {
         margin-top: 18px;
         margin-bottom: 4px;
     }
+
     .parent-textBox-factor {
         width: 188px;
     }
+
     .inputs-pay {
         width: 226px;
     }
+
     .address-input {
         margin-right: unset;
         width: 226px;
     }
+
     .email-input {
         margin-right: unset;
         width: 226px;
     }
+
     .messages {
         width: 74%;
     }
+
     .basic-update {
         width: auto;
     }
+
     .passcode-input {
         width: auto;
     }
+
     .basic-submit-vorood {
         width: auto;
     }
+
     .parent-checkbox {
         margin-right: 6.7%;
     }
+
     .parent-customer-box {
         display: flex;
         flex-direction: column;
@@ -1945,31 +2035,40 @@ box-left-sabad {
     .parent-text-sabad {
         margin-right: unset;
     }
+
     .h2-sabad {
         font-size: 11.5px;
     }
+
     .price-through-sabad {
         font-size: 11.5px;
     }
+
     .takhfif-phone-sabad {
         font-size: 11.5px;
     }
+
     .h2-sabad-price {
         font-size: 12.5px;
     }
+
     .div-price-else {
         align-items: unset;
         flex-direction: column;
     }
+
     .h2-sabad-else {
         font-size: 10.5px;
     }
+
     .inputs-pay {
         width: 280px;
     }
+
     .address-input {
         width: 280px;
     }
+
     .email-input {
         width: 280px;
     }
@@ -1979,58 +2078,74 @@ box-left-sabad {
     .title-phone-sabad {
         font-size: 13px;
     }
+
     .parent-text-sabad {
         margin-right: unset;
     }
+
     .price-through-sabad {
         font-size: 11.5px;
     }
+
     .h2-sabad {
         font-size: 11.5px;
     }
+
     .div-price-else {
         align-items: unset;
         flex-direction: column;
     }
+
     .h2-sabad-else {
         font-size: 11.5px;
     }
+
     .takhfif-phone-sabad {
         font-size: 11.5px;
     }
+
     .h2-sabad-price {
         font-size: 11.5px;
     }
+
     .pay-spec {
         margin-top: 39px;
         align-items: unset;
         flex-direction: column;
         justify-content: unset;
     }
+
     .style-username {
         margin-right: 8px;
     }
+
     .inputs-pay {
         margin-right: 8px;
         width: 290px;
     }
+
     .address-input {
         margin-right: 8px;
         width: 290px;
     }
+
     .email-input {
         margin-right: 8px;
         width: 290px;
     }
+
     .msg-success {
         font-size: 27px;
     }
+
     .parent-textBox-factor {
         width: 237px;
     }
+
     .basic-update {
         width: auto;
     }
+
     .basic-submit-vorood {
         width: auto;
     }
@@ -2040,34 +2155,44 @@ box-left-sabad {
     .parent-text-sabad {
         margin-right: unset;
     }
+
     .h2-sabad {
         font-size: 12px;
     }
+
     .price-through-sabad {
         font-size: 12px;
     }
+
     .takhfif-phone-sabad {
         font-size: 12px;
     }
+
     .h2-sabad-price {
         font-size: 12px;
     }
+
     .div-price-else {
         align-items: unset;
         flex-direction: column;
     }
+
     .h2-sabad-else {
         font-size: 12px;
     }
+
     .style-username {
         margin-right: 8px;
     }
+
     .inputs-pay {
         margin-right: 8px;
     }
+
     .address-input {
         margin-right: 8px;
     }
+
     .email-input {
         margin-right: 8px;
     }
@@ -2077,31 +2202,40 @@ box-left-sabad {
     .parent-text-sabad {
         margin-right: unset;
     }
+
     .h2-sabad {
         font-size: 11.5px;
     }
+
     .price-through-sabad {
         font-size: 11.5px;
     }
+
     .takhfif-phone-sabad {
         display: inline-flex;
         font-size: 11.5px;
     }
+
     .h2-sabad-else {
         font-size: 11.5px;
     }
+
     .h2-sabad-price {
         font-size: 11.7px;
     }
+
     .style-username {
         margin-right: 8px;
     }
+
     .inputs-pay {
         margin-right: 8px;
     }
+
     .address-input {
         margin-right: 8px;
     }
+
     .email-input {
         margin-right: 8px;
     }
@@ -2111,12 +2245,15 @@ box-left-sabad {
     .takhfif-phone-sabad {
         display: inline-flex;
     }
+
     .inputs-pay {
         margin-right: 49px;
     }
+
     .address-input {
         margin-right: 49px;
     }
+
     .email-input {
         margin-right: 49px;
     }
@@ -2126,18 +2263,23 @@ box-left-sabad {
     .pay-spec {
         flex-direction: unset;
     }
+
     .style-username {
         margin-right: 17px;
     }
+
     .inputs-pay {
         margin-left: unset;
     }
+
     .address-input {
         margin-left: unset;
     }
+
     .email-input {
         margin-left: unset;
     }
+
     .parent-box-left-takhfif {
         margin: 0 auto;
         float: unset;
@@ -2153,90 +2295,114 @@ box-left-sabad {
         width: 333px;
         margin-right: 5px;
     }
+
     .flex-container .slider {
         height: 220px;
         margin-right: 30px;
         flex: 0 0 60%;
     }
+
     .flex-container .banners {
         height: 220px;
     }
+
     .banner-m {
         margin-right: 30px;
         width: 943px;
     }
+
     .Parent-cards {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
+
     .bannerr {
         width: unset;
     }
+
     .banner-m {
         width: 94%;
         margin-right: 3%;
     }
+
     .margin-card-m {
         margin-right: 0;
     }
+
     .card-main {
         margin: 0 auto;
     }
+
     .card {
         margin-right: 0;
         margin-top: 2.5%;
         margin-bottom: 2.5%;
         width: 44%;
     }
+
     .parent1 {
         flex-wrap: wrap;
     }
+
     .div-img {
         width: 50%;
     }
+
     .div-center-texts {
         width: 50%;
         margin: 0;
     }
+
     .box-left {
         width: 100%;
     }
+
     .parent-box-left-takhfif {
         float: unset;
         margin: 0 auto;
     }
+
     .parent1 {
         justify-content: center;
     }
+
     .Sabad {
         width: 93%;
     }
+
     .Sabad_Box_Left {
         float: unset;
         margin-top: 7%;
         margin-bottom: 4%;
     }
+
     .boxEmpity {
         float: unset;
         margin: 0 auto;
     }
+
     .style-username {
         margin-right: 44px;
     }
+
     .title-Empity::before {
         border: none;
     }
+
     .title-Empity::after {
         border: none;
     }
+
     .parent-pay {
         flex-direction: column;
         align-items: center;
     }
+
     .basic-message {
         width: 55%;
     }
+
     .basic-messages {
         width: 90%;
     }
@@ -2249,19 +2415,23 @@ box-left-sabad {
     .search {
         margin-right: 70px;
     }
+
     .banner-m {
         width: 94%;
     }
+
     .div-img,
     .div-center-texts,
     .box-left {
         width: 33%;
         margin: unset;
     }
+
     .img {
         width: 372.5px;
         height: 372.5px;
     }
+
     .parent-box-left-takhfif {
         float: left;
     }
@@ -2271,17 +2441,21 @@ box-left-sabad {
     .search {
         margin-right: 20px;
     }
+
     .bannerr {
         width: unset;
     }
+
     .Parent-cards {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
     }
+
     .title-Empity::before {
         border: none;
     }
+
     .title-Empity::after {
         border: none;
     }
@@ -2291,10 +2465,21 @@ box-left-sabad {
     .bannerr {
         width: unset;
     }
+
     .title-Empity::before {
         border: none;
     }
+
     .title-Empity::after {
         border: none;
     }
 }
+
+.filter-box {
+    border-radius: 30px;
+    border: 1px solid rgb(227, 231, 233);
+    box-shadow: 0px 3px 4px 1px rgb(186 200 208);
+
+    margin-top: 50px;
+}
+
