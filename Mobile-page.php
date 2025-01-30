@@ -36,9 +36,6 @@ include('connection.php');
             $xScreenSize = $_GET['ScreenSize'];
         }
     }
-    echo $xStorage;
-    echo $xColor;
-    echo $xScreenSize;
 
 
     $sql = "select * from products";
